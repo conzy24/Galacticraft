@@ -234,6 +234,7 @@ public class GalacticraftCore
         GalacticraftCore.overworld = new GCCorePlanetOverworld();
         GalacticraftRegistry.registerCelestialBody(GalacticraftCore.overworld);
         GalacticraftCore.sun = new GCCorePlanetSun();
+        GlacticraftCore.mars = new GCCorePlanetMars();
         GalacticraftRegistry.registerCelestialBody(GalacticraftCore.sun);
         GalacticraftRegistry.registerGalaxy(GalacticraftCore.galaxyMilkyWay);
 
