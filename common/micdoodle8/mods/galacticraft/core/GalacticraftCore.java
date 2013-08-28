@@ -230,7 +230,7 @@ public class GalacticraftCore
     public void init(FMLInitializationEvent event)
     {
         GalacticraftCore.galacticraftTab = new GCCoreCreativeTab(CreativeTabs.getNextID(), GalacticraftCore.CHANNEL, GCCoreItems.spaceship.itemID, 0);
-
+         GalacticraftCore.mars = new mars*(l
         GalacticraftCore.overworld = new GCCorePlanetOverworld();
         GalacticraftRegistry.registerCelestialBody(GalacticraftCore.overworld);
         GalacticraftCore.sun = new GCCorePlanetSun();
