@@ -53,6 +53,8 @@ public class marsy implements IPlanet
     @Override
     public int getDimensionID()
     {
-        return GCMoonConfigManager.dimensionIDMoon;
+        return 4;
+        
+        // work in progress.
     }
 }
